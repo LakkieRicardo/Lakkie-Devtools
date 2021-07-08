@@ -1,0 +1,36 @@
+@import '../globals';
+
+.login-card {
+    background-color: rgb(73, 74, 92);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    max-width: 90%;
+    height: 600px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    > div {
+        width: 100%;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    h1, input {
+        font-family: $mainFont;
+        margin-top: 15px;
+        padding: 5px;
+    }
+
+}
+
+.login-input {
+    width: 80%;
+}

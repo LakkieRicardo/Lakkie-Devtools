@@ -1,0 +1,29 @@
+.ln-logo {
+    font-family: monospace;
+}
+
+.animated-website-logo {
+    stroke-dasharray: 32px;
+    animation: logo-stroke-offset 15s linear 0s infinite;
+}
+
+@keyframes logo-stroke-offset {
+    0% {
+        stroke-dashoffset: 0px;
+    }
+
+    100% {
+        stroke-dashoffset: calc(32px * 6);
+    }
+}
+
+.login-ln-logo {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    right: 10px;
+}
+
+.login-ln-logo-spacer {
+    height: 232px;
+}
