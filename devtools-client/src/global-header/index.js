@@ -3,7 +3,7 @@ import { UserAvatar20 } from '@carbon/icons-react';
 
 const GlobalHeader = () => (
     <Header aria-label="Lakkie.net Devtools">
-        <HeaderName href="/dashboard" prefix="Lakkie.net">
+        <HeaderName href="/" prefix="Lakkie.net">
             Devtools
         </HeaderName>
         <SkipToContent />

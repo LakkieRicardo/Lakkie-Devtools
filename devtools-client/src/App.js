@@ -16,6 +16,15 @@ const App = () => (
             <Route path="/login">
                 <Login />
             </Route>
+            <Route path="/">
+                <section className="content-body">
+                    <h1>Lakkie.net Devtools</h1>
+                </section>
+                <section className="content-body">
+                    <h2>What is Devtools?</h2>
+                    <p>Devtools is a web app which helps you manage all of your projects as a developer using Git repositories. Other features include invoice listing, note taking, and OAuth 2.0 integration. In simpler terms, Devtools is a way to collect all of your projects and details.</p>
+                </section>
+            </Route>
         </Switch>
     </>
 );

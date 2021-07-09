@@ -1,7 +1,7 @@
 import { TextInput } from 'carbon-components-react';
 
 const Login = () => (
-    <div className="login-container login-body bx--grid">
+    <div className="login-container content-body bx--grid">
         <div className="bx--row">
             <div className="bx--col">
                 <section>
