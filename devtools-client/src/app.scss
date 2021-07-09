@@ -4,5 +4,13 @@ body {
 
 .app-container {
     background-color: rgb(43, 44, 58);
-    height: 100vh;
+    min-height: 100vh;
+}
+
+section {
+    margin-top: $spacing-10;
+}
+
+.content-body {
+    margin-left: calc(25% + 2rem);
 }

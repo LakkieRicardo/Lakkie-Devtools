@@ -1,5 +1,3 @@
-import './style.scss';
-
 const Logo = (props) => (
     <svg className={props.className + " ln-logo"} viewBox="0 0 640 256" width={props.width} height={props.height} style={{userSelect: "none"}} xmlns="http://www.w3.org/2000/svg">
         <text x="132" y="96" dominantBaseline="middle" textAnchor="middle" style={{fontSize: "192px"}} stroke="white" fill="white">L</text>

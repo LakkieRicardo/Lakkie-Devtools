@@ -1,16 +1,17 @@
-import React from 'react';
-import './style.scss';
-import LNLogo from '../ln-logo';
+import { TextInput } from 'carbon-components-react';
 
 const Login = () => (
-    <div className="login-card">
-        <div>
-            <h1>Lakkie Devtools</h1>
-            <input type="text" id="username" name="username" placeholder="Username" className="login-input" /><br />
-            <input type="password" id="password" name="password" placeholder="Password" className="login-input" /><br />
-            <input type="submit" /><br />
-            <div className="login-ln-logo-spacer" />
-            <LNLogo className="login-ln-logo" />
+    <div className="login-container login-body bx--grid">
+        <div className="bx--row">
+            <div className="bx--col">
+                <section>
+                    <h1>Log in</h1>
+                </section>
+                <section>
+                    <TextInput id="username" labelText="Username" name="username" className="login-input" />
+                    <TextInput.PasswordInput id="password" labelText="Password" name="password" className="login-input" />
+                </section>
+            </div>
         </div>
     </div>
 );
